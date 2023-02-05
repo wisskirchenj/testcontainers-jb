@@ -30,6 +30,10 @@ dependencies {
 
     implementation("org.seleniumhq.selenium:selenium-firefox-driver:4.8.0")
     implementation("org.seleniumhq.selenium:selenium-remote-driver:4.8.0")
+    testImplementation("org.testcontainers:selenium:1.17.6")
+    testImplementation("org.testcontainers:testcontainers:1.17.6")
+    testImplementation("org.testcontainers:junit-jupiter:1.17.6")
+    testImplementation("org.testcontainers:mysql:1.17.6")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 

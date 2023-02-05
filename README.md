@@ -15,5 +15,3 @@ gradle-lized and bumped to current Spring and lib versions.
 
 Basic Spring Boot REST-app with MySQL-Database composed in a docker container.
 Selenium-based testing to demonstrate testcontainers.
-
-
